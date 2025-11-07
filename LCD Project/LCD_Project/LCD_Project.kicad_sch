@@ -5048,6 +5048,12 @@
 		(uuid "1584af48-572b-43cc-b23c-5acd98e49f1c")
 	)
 	(junction
+		(at 224.79 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2475b16f-ab78-4e72-8dab-c6d2dbd6e2fa")
+	)
+	(junction
 		(at 196.85 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,12 +5090,6 @@
 		(uuid "929fe90f-6aff-40ec-9590-04e4464c1f1d")
 	)
 	(junction
-		(at 224.79 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bc0c87c-9b1d-486c-8e86-50c6f6fb42ad")
-	)
-	(junction
 		(at 173.99 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5102,10 +5102,10 @@
 		(uuid "b03edfbe-3b54-44b7-8391-e99bcb30dfec")
 	)
 	(junction
-		(at 224.79 175.26)
+		(at 224.79 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4e4b923-58bb-4ded-b5b3-dadeb564a108")
+		(uuid "b2ff8237-c199-4f15-97ab-3e931332945b")
 	)
 	(junction
 		(at 39.37 40.64)
@@ -6701,7 +6701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 122.174 232.664 90)
 			(effects
 				(font
@@ -7581,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 178.816 183.134 90)
 			(effects
 				(font
@@ -9276,7 +9276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 124.714 178.054 90)
 			(effects
 				(font
@@ -9889,242 +9889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DT15-4P:DT15-4P")
-		(at 214.63 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "701311df-8ec7-4138-8b5b-d04acb3de0fc")
-		(property "Reference" "J1"
-			(at 214.63 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DT15-4P"
-			(at 214.63 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DT15-4P:TE_DT15-4P"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "DT15-4P"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "TE Connectivity"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "DT Series 4 Position 16 AWG Flange Mount Male Pin Through Hole Receptacle Header"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DT15-4P"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DT15-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendation"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "D1"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DT15-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DT15-4P"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "EU_RoHS_Compliance" "Compliant"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In stock"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PCB Header, Vertical, PCB Mount Header, Contacts 4, Gray, Nickel, DT Series | TE Connectivity DT15-4P"
-			(at 214.63 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b42c479-e333-4d57-a3bc-5dea5c24c2bd")
-		)
-		(pin "3"
-			(uuid "c521db96-77e1-402c-b3e5-e37d7b03e0fa")
-		)
-		(pin "1"
-			(uuid "b1144062-7ecb-4c77-bb4f-1c06d3148b70")
-		)
-		(pin "4"
-			(uuid "4c3d4228-5cbd-4679-b960-aa7963bf4227")
-		)
-		(instances
-			(project ""
-				(path "/94835ae3-4d75-4733-8c54-00cd602fbcfe"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 337.82 180.34 90)
 		(unit 1)
@@ -10217,7 +9981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 123.444 261.874 90)
 			(effects
 				(font
@@ -10486,7 +10250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 176.276 237.744 90)
 			(effects
 				(font
@@ -10622,7 +10386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 177.546 209.804 90)
 			(effects
 				(font
@@ -10864,6 +10628,242 @@
 		)
 	)
 	(symbol
+		(lib_id "DT15-4P:DT15-4P")
+		(at 214.63 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87272e5-ef30-4f30-a0e4-bad4ebe15789")
+		(property "Reference" "J1"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DT15-4P"
+			(at 214.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DT15-4P:TE_DT15-4P"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "DT15-4P"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "DT Series 4 Position 16 AWG Flange Mount Male Pin Through Hole Receptacle Header"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DT15-4P"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DT15-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendation"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "D1"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DT15-4P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DT15-4P"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In stock"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PCB Header, Vertical, PCB Mount Header, Contacts 4, Gray, Nickel, DT Series | TE Connectivity DT15-4P"
+			(at 214.63 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87b2a034-fa52-4dc8-a001-e82a883dac8a")
+		)
+		(pin "3"
+			(uuid "b404fa32-4d1f-4b07-a681-37f38e7f20ab")
+		)
+		(pin "2"
+			(uuid "d38d3a8e-5ce3-4cc8-aa8d-443c25ea3a32")
+		)
+		(pin "4"
+			(uuid "e5c3e585-9794-422a-ad9f-d206f2a978f4")
+		)
+		(instances
+			(project ""
+				(path "/94835ae3-4d75-4733-8c54-00cd602fbcfe"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 160.02 270)
 		(unit 1)
@@ -10956,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 123.444 204.724 90)
 			(effects
 				(font
@@ -12724,7 +12724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CRCW08051K00FKEA:RESC2012X50N"
 			(at 177.546 266.954 90)
 			(effects
 				(font
